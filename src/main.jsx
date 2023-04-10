@@ -8,11 +8,19 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './Components/Home/Home';
+import Main from './Components/Laout/Main';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home></Home>
+    element: <Main></Main>,
+    children: [
+      {
+        path:'/',
+        element: <Home></Home>,
+        loader: () => fetch('Fake-Data.json')
+      }
+    ]
   }
 ])
 
