@@ -1,0 +1,26 @@
+[
+   {
+    "id": 1,
+    "title": "account & Finance",
+    "jobs-available": "300 jobs Available",
+    "jobs-logo": "accounts 1"
+   },
+   {
+    "id": 2,
+    "title": "Creative Design",
+    "jobs-available": "100+ jobs Available",
+    "jobs-logo": "business 1"
+   },
+   {
+    "id": 3,
+    "title": "account & Finance",
+    "jobs-available": "300 jobs Available",
+    "jobs-logo": "social-media 1"
+   },
+   {
+    "id": 4,
+    "title": "Enginering Job",
+    "jobs-available": "150 jobs Available",
+    "jobs-logo": "chip 1"
+   }
+]
