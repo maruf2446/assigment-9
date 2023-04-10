@@ -1,0 +1,11 @@
+.Home-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 4fr;
+    gap: 15px;
+}
+.job-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}

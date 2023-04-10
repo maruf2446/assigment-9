@@ -2,25 +2,25 @@
    {
     "id": 1,
     "title": "account & Finance",
-    "jobs-available": "300 jobs Available",
-    "jobs-logo": "accounts 1"
+    "jobsAvailable": "300 jobs Available",
+    "jobs_img": "../src/All Images/accounts 1.png"
    },
    {
     "id": 2,
     "title": "Creative Design",
-    "jobs-available": "100+ jobs Available",
-    "jobs-logo": "business 1"
+    "jobsAvailable": "100+ jobs Available",
+    "jobs_img": "../src/All Images/business 1.png"
    },
    {
     "id": 3,
     "title": "account & Finance",
-    "jobs-available": "300 jobs Available",
-    "jobs-logo": "social-media 1"
+    "jobsAvailable": "300 jobs Available",
+    "jobs_img": "../src/All Images/social-media 1.png"
    },
    {
     "id": 4,
     "title": "Enginering Job",
-    "jobs-available": "150 jobs Available",
-    "jobs-logo": "chip 1"
+    "jobsAvailable": "150 jobs Available",
+    "jobs_img": "../src/All Images/chip 1.png"
    }
 ]
