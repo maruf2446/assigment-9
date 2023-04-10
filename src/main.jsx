@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import Main from './Components/Laout/Main';
+import JobList from './Components/JobList/JobList';
+import DreamJob from './Components/DreamJob/DreamJob';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
         path:'/',
         element: <Home></Home>,
         loader: () => fetch('Fake-Data.json')
+      },
+      {
+        path:'/',
+        element: <JobList></JobList>
+      },
+      {
+        path:'/',
+        element: <DreamJob></DreamJob>
       }
     ]
   }
