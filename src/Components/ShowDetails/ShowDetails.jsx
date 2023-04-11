@@ -1,12 +1,12 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { useLoaderData, useParams, } from 'react-router-dom';
 
 const ShowDetails = () => {
 
     const jobData = useLoaderData();
     const { id } = useParams();
 
-    // console.log();
+    
 
     const jobDetailsData = jobData.find(item => item.id === id);
     console.log(jobDetailsData);
@@ -31,7 +31,7 @@ const ShowDetails = () => {
                     <p>Phone :{phoneNumber}</p>
                     <p>Email: {email}</p>
                     <p>Address :{location}</p>
-                    <button>Apply Now</button>
+                    <button className='bg-blue-700 py-2 px-2 rounded text-white hover:bg-blue-900 text-center'>Apply Now</button>
                 </div>
             </div>
         </div>

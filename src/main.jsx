@@ -7,12 +7,12 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './components/Home/Home';
-import Header from './components/Header/Header';
+
 import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Main from './components/Layout/Main';
-import ShowDetails from './components/ShowDetails/ShowDetails';
+import ShowDetails from './Components/ShowDetails/ShowDetails';
+import Home from './Components/Home/Home';
 
 const router = createBrowserRouter([
   {
