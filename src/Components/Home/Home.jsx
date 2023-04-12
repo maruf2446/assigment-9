@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import BannerPart from '../BannerPart/BannerPart';
 import JobCategory from '../JobCategory/JobCategory';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
-import ShowDetails from '../ShowDetails/ShowDetails';
 
 const Home = () => {
 
