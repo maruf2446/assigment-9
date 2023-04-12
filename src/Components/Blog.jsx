@@ -4,34 +4,26 @@ const Blog = () => {
     return (
         <div className='space-y-10 divide-y-2 divide-gray-600'>
             <div>
-            <p className='pb-4'> 1.contex apni কখন ব্যাবহার করা হয়।</p>
+                <p className='pb-4'> 1.when the contex API used</p>
 
-<p>Ans: প্রসঙ্গ API উপাদানগুলির মধ্যে ডেটা ভাগ করতে সাহায্য করে যা আপনি সহজে প্রপসের সাথে ভাগ করতে পারবেন না , উদাহরণস্বরূপ, জটিল ডেটা অবজেক্ট৷ রিঅ্যাক্ট কনটেক্সট এপিআই প্রতিটি স্তরে ম্যানুয়ালি কোনো প্রপস না পাঠিয়ে কম্পোনেন্ট ট্রির মাধ্যমে userid, auth এবং থিম ডেটার মতো ডেটা পাঠানোর একটি উপায় প্রদান করে।</p>
+                <p>Ans: The Context API helps share data between components which you can't easily share with props, for example, complex data objects. React Context API provides a way to send data like userid, auth, and theme data through the component tree without sending any props manually at every level.</p>
             </div>
 
-           <div>
-           <p className='pb-4'>2. what is coustom hok react এর কাস্টমস হোক কি জিনিস? </p>
-            <p> Ans :ব্যবহারকারীরা তৈরি করে নিজেদের প্রয়োজন মতো হুক বা প্রতিক্রিয়া লেখার জন্য ব্যবহার করতে পারে।
+            <div>
+                <p className='pb-4'>2. what is coustom hok react </p>
+                <p> Ans: Custom React JS hooks are reusable functions that a React JS software developer can use to add special and unique functionality to the React applications. Usually, if there is a requirement to add a feature, one can install a third-party library and solve the problem</p>
+            </div>
 
-এটি কাস্টম হুকের মাধ্যমে ব্যবহারকারীরা একই লজিক এবং কোড টাইপ বারবার না লিখে পুনরাবৃত্তি করতে পারেন। অর্থাৎ, ব্যবহারকারীরা কোড রিপিটেশন কম করে সময় ও পরিশ্রম সংযোজন করতে পারেন।
-
-একটি কাস্টম হুক লেখার জন্য ব্যবহারকারীকে কোন নির্দিষ্ট ফরমেট ফলো করতে হয় না। বরং এটি ব্যবহারকারীর নির্দিষ্ট প্রয়োজনে লিখা হুক যা তাদের নির্দিষ্ট কাজে সাহায্য করে তুলবে।
-
-উদাহরণঃ একটি কাস্টম হুক ব্যবহার করে কোন ফর্মের ফিল্ডের এরর চেক করা যেতে পারে। আবার একটি কাস্টম হুক ব্যবহার করে কোন প্রসেসিং পাইপলাইন তৈরি করে তারপর সেই পাইপল</p>
-           </div>
-
-<div>
-<p className='pb-4'>3. useref এই জিনিস টা কি। এটা কোন কাজে লাগে?</p>
-<p>Ans: "useRef" হলো একটি Hook যা React Component এর নির্দিষ্ট একটি ডোম এলিমেন্টের রেফারেন্স সেভ করতে ব্যবহৃত হয়। সেটি ব্যবহার করে আমরা কোনো স্টেট ভ্যারিয়েবল কে অবজেক্ট আকারে সেভ করতে পারি এবং সেই অবজেক্টের মাধ্যমে ডোম এলিমেন্টের স্টেট পরিবর্তন করা যায় বিনা পুনরাবৃত্তি করে।</p>
-</div>
+            <div>
+                <p className='pb-4'>3. where does useref use it?</p>
+                <p>Ans: The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.</p>
+            </div>
 
 
-<div>
-<p className='pb-4'> 4. useMemo এই জিনিস টা কি?</p>
-<p> Ans :"useMemo" হলো একটি React Hook যা ব্যবহার করে কম্পোনেন্টের রেন্ডারিং পারফরমেন্স বাড়ানো যায়।
-
-এই হুকটি ব্যবহার করে আমরা কোনো ফাংশন বা কম্পোনেন্ট থেকে আউটপুট জেনারেট করার সময় যদি কোনো ইনপুট পরিবর্তিত না হয় তবে সেই আউটপুট ক্যাশ করে রাখা যায়। এটি পুনরাবৃত্তিহীন এবং একটি মেমোরি ওভারহেড কম রেন্ডারিং পারফরমেন্স বাড়ানোর উদ্দেশ্যে ব্যবহার করা হয়।</p>
-</div>
+            <div>
+                <p className='pb-4'> 4.what is useMemo</p>
+                <p>Ans :React has a built-in hook called useMemo that allows you to memoize expensive functions so that you can avoid calling them on every render. You simple pass in a function and an array of inputs and useMemo will only recompute the memoized value when one of the inputs has changed.</p>
+            </div>
 
         </div>
     );
