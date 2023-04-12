@@ -5,11 +5,11 @@ b7a9-career-hub-maruf2446 created by GitHub Classroom
  Discover tens of thousands of employment options with the necessary knowledge. It is the future you. Locate it here. Manage every aspect of your job application process.
 
 * Live Link
-Hosted in Netlify -> [netlify](https://remarkable-blini-006a6a.netlify.app/)
+Hosted in Netlify -> [netlify](https://flourishing-pithivier-c97ab0.netlify.app/)
 
 
 * Starter Template
-Github Repo -> [heroGadget-starter](https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-jkjoy99)
+Github Repo -> [heroGadget-starter](https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-maruf2446)
 
 
 * React Router Dom v6.4 
